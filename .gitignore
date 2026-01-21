@@ -59,3 +59,14 @@ html/translations/cldr/
 
 # Emails (generated templates cache)
 # (Keep source emails, ignore cached/compiled if any)
+
+# -- Helper scripts & backups --
+fix_*.md
+fix_*.sh
+fix_*.sql
+INSTRUKCJA_*.md
+naprawa.sh
+KOMENDY.txt
+
+# Database backups with timestamps (keep only main dump)
+database/prestashop_dump_*.sql
