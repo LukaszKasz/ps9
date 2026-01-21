@@ -1,0 +1,61 @@
+# -- System & IDE --
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+
+# -- Docker environment --
+db_data/
+prestashop_data/
+
+# -- PrestaShop Core (html folder) --
+
+# Configuration
+html/app/config/parameters.php
+html/app/config/parameters.yml
+html/app/config/xml/
+html/config/settings.inc.php
+html/config/defines_custom.inc.php
+
+# Cache & Logs
+html/var/cache/
+html/var/logs/
+html/var/sessions/
+html/cache/smarty/compile/
+html/cache/smarty/cache/
+html/cache/class_index.php
+
+# Media & Assets (Content)
+html/img/p/
+html/img/c/
+html/img/cms/
+html/img/tmp/
+html/img/st/
+html/img/l/
+html/img/m/
+html/img/os/
+html/img/su/
+html/upload/
+html/download/
+html/modules/*/download/
+
+# Admin temporary files
+html/admin-dev/autoupgrade/
+html/admin-dev/backups/
+html/admin-dev/export/
+html/admin-dev/import/
+
+# Sitemaps & Robots
+html/sitemap.xml
+html/robots.txt
+
+# Vendors (if using Composer independently inside html, though usually part of Presta package)
+# html/vendor/
+# html/node_modules/
+
+# Translations (generated)
+html/translations/cldr/
+
+# Emails (generated templates cache)
+# (Keep source emails, ignore cached/compiled if any)
